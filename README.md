@@ -1,56 +1,60 @@
-# Shadcn Landing Page Template
+# MindMap App
 
-## <a href="https://ui.shadcn.com/" target="_blank">Shadcn</a> + <a href="https://nextjs.org/" target="_blank">Next.js</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+A tool to generate and visualize mind maps powered by AI. Leverage cutting-edge technology to transform your ideas into dynamic mind maps.
 
-### This is a project conversion <a href="https://github.com/leoMirandaa/shadcn-vue-landing-page" target="_blank">Shadcn-Vue</a> to NextJS
+![Alt text](./public/demo-img.png)
 
-![Alt text](./public/demo-img.jpg)
 
-## Sections
+## Overview
 
-- [x] Navbar
-- [x] Sidebar(mobile)
-- [x] Hero
-- [x] Sponsors
-- [x] Benefits
-- [x] Features
-- [x] Testimonials
-- [x] Team
-- [x] Community
-- [x] Contact
-- [x] Pricing
-- [x] Frequently Asked Questions(FAQ)
-- [x] Services
-- [x] Footer
+MindMap App is built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/). It integrates with the OpenAI API to generate mind maps in response to user prompts, providing a unique solution for brainstorming and idea management.
 
 ## Features
 
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
+- **AI-Driven Mind Map Generation:** Create mind maps based on natural language prompts.
+- **Interactive Visualization:** Experience dynamic nodes and edges.
+- **Responsive Design:** Enjoy optimal display on desktops and mobile devices.
+- **Secure Environment:** Sensitive configuration is kept out of version control using a properly configured `.gitignore`.
 
-## How to install
+## Getting Started
 
-1. Clone this repositoy:
+### Installation
 
-```bash
-git clone https://github.com/nobruf/shadcn-landing-page.git
-```
+1. **Clone the repository:**
 
-2. Go into project
+    ```bash
+    git clone https://github.com/bluefishhh93/mindmap.git
+    ```
 
-```bash
-cd shadcn-landing-page
-```
+2. **Navigate into the project directory:**
 
-3. Install dependencies
+    ```bash
+    cd mindmap
+    ```
 
-```bash
-npm install
-```
+3. **Install dependencies:**
 
-4. Run project
+    ```bash
+    npm install
+    ```
+
+4. **Setup Environment Variables:**
+
+    - Copy the example file to create a new `.env`:
+
+      ```bash
+      cp .env.example .env
+      ```
+
+    - Open the newly created [.env](http://_vscodecontentref_/1) file and add your OpenAI API key:
+
+      ```dotenv
+      OPENAI_API_KEY=your_api_key_here
+      ```
+
+### Running the App
+
+Start the development server:
 
 ```bash
 npm run dev
-```
