@@ -31,7 +31,6 @@ export default function RootLayout({
           <div className="flex flex-col h-screen">
             <Header />
             <main className="flex flex-1">
-              <Sidebar />
                 {children}
             </main>
             <Footer />

@@ -42,7 +42,7 @@ const ChatPanel: React.FC<ChatPanelProps> = ({
     const [chatMessages, setChatMessages] = useState<Message[]>([
         {
             id: "1",
-            text: "Chào mừng! Vui lòng nhập nội dung về môn học 'Tư tưởng Hồ Chí Minh' để tóm tắt thành sơ đồ tư tưởng.",
+            text: "Chào mừng! Vui lòng nhập nội dung về môn học 'Tư tưởng Hồ Chí Minh' để tóm tắt thành sơ đồ tư duy.",
         },
     ]);
     const [chatInput, setChatInput] = useState("");
